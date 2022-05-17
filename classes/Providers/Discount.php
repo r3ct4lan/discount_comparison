@@ -17,11 +17,11 @@ use ParseError;
 
 /**
  * Class Discount
- * Расширяет класс Bitrix\Crm\Order\Discount, который отвечает за применение правил работы с корзиной.
+ * Расширяет класс Bitrix\Sale\Discount, который отвечает за применение правил работы с корзиной.
  * @package R3ct4lan\DiscountComparison
  * @author Maxim Smolkov
  */
-class Discount extends \Bitrix\Crm\Order\Discount
+class Discount extends \Bitrix\Sale\Discount
 {
 	/**
 	 * Порядок применения скидок

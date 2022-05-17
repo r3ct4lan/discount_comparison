@@ -8,7 +8,7 @@ use Bitrix\Main\SystemException;
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 IncludeModuleLangFile(__FILE__);
 
-class discount_comparison extends CModule
+class r3ct4lan_discount_comparison extends CModule
 {
 	var $MODULE_ID = 'r3ct4lan.discount_comparison';
 	var $MODULE_NAME;
@@ -19,7 +19,7 @@ class discount_comparison extends CModule
 	var $PARTNER_URI;
 
 	/**
-	 * discount_comparison constructor.
+	 * r3ct4lan_discount_comparison constructor.
 	 */
 	function __construct()
 	{
